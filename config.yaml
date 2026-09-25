@@ -1,0 +1,9 @@
+# ollama pull <model>
+model: llama3.2
+
+ollama_url: http://localhost:11434
+
+max_tokens: 1024
+
+# 0 = très déterministe / répétitif, 1 = très créatif / aléatoire
+temperature: 0.7
