@@ -6,7 +6,7 @@ An AI assistant for Twitch streamers that runs entirely on the streamer's comput
 
 **Python · Ollama (Qwen3 14B, bge-m3 embeddings) · Twitch IRC · SQLite · Flask · MCP · DuckDuckGo search · OBS WebSocket**
 
-Epitech team project. The dashboard and the full user guide are in French: [doc/README.fr.md](doc/README.fr.md).
+Epitech project, team of 4. The dashboard and the full user guide are in French: [doc/README.fr.md](doc/README.fr.md).
 
 ## Highlights
 
@@ -52,8 +52,8 @@ python3 -m tests.adversarial.run          # attacks against the guardrails
 - `config/`, `config.yaml`, `prompts/` - settings and instructions given to the model.
 - `doc/` - user guide, chat agent design, user stories, evaluation reports.
 
-## Team
+## Team and contributions
 
 ColoMiel, Origanire, Hexoneer and Kevin Huynh ([@Nivek-Hyn](https://github.com/Nivek-Hyn)).
 
-My part was the Twitch chat agent: the IRC connection and message parsing, answering when the bot is mentioned, the per-viewer memory that survives restarts, the token budget and the compression of older history, the moderator-only `!remember` command, viewer activity statistics, and the code documentation with Doxygen.
+- Kevin Huynh: the Twitch chat agent: the IRC connection and message parsing, answering when the bot is mentioned, the per-viewer memory that survives restarts, the token budget and the compression of older history, the moderator-only `!remember` command, viewer activity statistics, and the code documentation with Doxygen.
